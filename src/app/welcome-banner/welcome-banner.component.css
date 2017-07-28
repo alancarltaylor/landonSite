@@ -1,4 +1,14 @@
 :host{
   display: block;
-  background-color: rgb(101,86,67);
-};
+  /*background-color: rgb(101,86,67);*/
+  /*background-size: 100% 100%;*/
+
+}
+
+#welcome {
+  /*display: none;*/
+  /*height: 7000px;*/
+  margin-left: 100px;
+  width: 90%;
+  height: auto;
+}
