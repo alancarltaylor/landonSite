@@ -11,7 +11,7 @@ import { VideoComponent } from './video/video.component';
 import { PurchaseComponent } from './purchase/purchase.component';
 import { SiteMapComponent } from './site-map/site-map.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { SharedService } from './shared.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +28,7 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [SharedService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
