@@ -1,3 +1,8 @@
+:host{
+  display: block;
+  background-color: rgb(128,188,163);
+}
+
 iframe{
   /*padding-bottom: 80px;*/
   display: table;
