@@ -1,12 +1,14 @@
-<!-- <di/v class="container"> -->
-
-<div class="row">
+<div #tickler class="row">
   <div class="col-md-11 col-xs-offset-1">
-    <!-- <div class="col-md-4 col-md-offset-4"> -->
-      <img src="https://j.gifs.com/76E55y.gif" alt="" id="welcome">
-    <!-- </div> -->
-
+    <img src="https://j.gifs.com/76E55y.gif" alt="" id="welcome">
   </div>
-  <!-- <app-teaser></app-teaser> -->
 </div>
-<!-- </div> -->
+
+<div class="jump">
+  <span (click)="scroll(jump, tickler)" class="glyphicon glyphicon-chevron-down"></span>
+</div>
+
+<h3 #jump class="text-center">
+  "One time I bought a gate from USAutomatic, <br>and all of a sudden my truck started working again"<br><br>
+  -Murray Gonzalez
+</h3>
