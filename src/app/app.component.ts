@@ -19,7 +19,7 @@ export class AppComponent {
   @HostListener("window:scroll", [])
   onWindowScroll() {
     //we'll do some stuff here when the window is scrolled
-    let number = this.document.body.scrollTop;
+    let number = window.pageYOffset || this.document.documentElement.scrollTop || this.document.body.scrollTop || 0;
     if (number >= 100) {
       this.sharedService.boolChangeClass = true;
       console.log('Scrolled below header.');
