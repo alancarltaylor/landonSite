@@ -19,6 +19,12 @@
   margin-top: 30px;
 }
 
+a:link:not(#exclude), a:visited:not(#exclude) {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
 h3{
   font-style: italic;
   padding-top: 305px;
