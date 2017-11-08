@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Ng2PageScrollModule }  from 'ng2-page-scroll';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule, MatCardModule, MatMenuModule, MatToolbarModule, MatIconModule } from '@angular/material';
 
 
 import { AppComponent } from './app.component';
@@ -29,7 +31,14 @@ import { SharedService } from './shared.service';
   ],
   imports: [
     BrowserModule,
-    Ng2PageScrollModule
+    Ng2PageScrollModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatMenuModule,
+    MatCardModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [SharedService],
   bootstrap: [AppComponent]
