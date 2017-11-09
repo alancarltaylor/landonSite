@@ -1,6 +1,7 @@
 :host{
   display: block;
   background-color: rgb(128,188,163);
+  padding-bottom: 4em;
 }
 
 iframe{
