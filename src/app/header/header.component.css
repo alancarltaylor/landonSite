@@ -8,7 +8,10 @@
 }
 
 img{
-  margin-left: 100px;
+  /*margin-left: 100px;*/
+  display: block;
+  /*margin: auto;
+  width: 300px;*/
   /*margin-bottom: 20px;*/
 }
 
@@ -27,7 +30,6 @@ img{
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 3;
 }
 .dark{
   /*background-color: #242424;*/
