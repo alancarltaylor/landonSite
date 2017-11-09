@@ -2,10 +2,10 @@
   display: block;
   /*background-color: white;*/
   background-color: rgb(246,247,189);
-  height: 250vh;
+  height: 1800px;
   box-shadow: inset 0px 11px 8px -10px #CCC,
         inset 0px -11px 8px -10px #CCC;
-
+  font-size: 24px;
 }
 
 #welcome {
@@ -34,7 +34,9 @@
 
 .about{
   width: 70px;
-  float: left;
+  /*float: left;*/
+  position: absolute;
+  left: 15px;
 }
 
 mat-card{
@@ -54,4 +56,19 @@ a:link:not(#exclude), a:visited:not(#exclude) {
   font-style: italic;
   padding-top: 75px;
   /*padding-bottom: 305px;*/
+}
+
+p{
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+@media screen and (max-width: 600px) {
+  .about{
+    position: relative;
+    margin: 0;
+    margin-bottom: 20px;
+    top: 5px;
+    /*padding-bottom: 5px;*/
+  }
 }
