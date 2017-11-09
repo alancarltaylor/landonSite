@@ -1,0 +1,12 @@
+:host{
+  display: block;
+  /*background-color: white;*/
+}
+
+.reviews{
+  background-color: white;
+  font-style: italic;
+  padding-top: 305px;
+  padding-bottom: 305px;
+  width: 100%;
+}
