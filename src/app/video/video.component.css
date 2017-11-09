@@ -2,6 +2,8 @@
   display: block;
   background-color: rgb(128,188,163);
   padding-bottom: 4em;
+  box-shadow: inset 0px 11px 8px -10px black,
+        inset 0px -11px 8px -10px black;
 }
 
 iframe{

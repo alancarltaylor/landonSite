@@ -2,7 +2,9 @@
   display: block;
   /*background-color: white;*/
   background-color: rgb(246,247,189);
-  height: 225vh;
+  height: 250vh;
+  box-shadow: inset 0px 11px 8px -10px #CCC,
+        inset 0px -11px 8px -10px #CCC;
 
 }
 
@@ -21,7 +23,7 @@
 .glyphicon{
   /*position: absolute;*/
   display: block;
-  top: -150px;
+  top: -185px;
   margin: auto;
   width: 100px;
 }
@@ -30,9 +32,15 @@
   padding-top: 100px;
 }*/
 
-/*img{
-  width: 100%;
-}*/
+.about{
+  width: 70px;
+  float: left;
+}
+
+mat-card{
+  background-color: white;
+  margin-bottom: 1em;
+}
 
 a:link:not(#exclude), a:visited:not(#exclude) {
     text-decoration: none;
@@ -44,6 +52,6 @@ a:link:not(#exclude), a:visited:not(#exclude) {
   background-color: rgb(246,247,189);
 
   font-style: italic;
-  padding-top: 105px;
+  padding-top: 75px;
   /*padding-bottom: 305px;*/
 }
