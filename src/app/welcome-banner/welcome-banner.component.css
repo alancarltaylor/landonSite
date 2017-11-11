@@ -2,10 +2,11 @@
   display: block;
   /*background-color: white;*/
   background-color: rgb(246,247,189);
-  height: 1800px;
+  /*height: 1800px;*/
   box-shadow: inset 0px 11px 8px -10px #CCC,
         inset 0px -11px 8px -10px #CCC;
   font-size: 24px;
+  padding-bottom: 2em;
 }
 
 #welcome {
@@ -52,11 +53,20 @@ a:link:not(#exclude), a:visited:not(#exclude) {
 }
 
 #awesomePart{
-  background-color: rgb(246,247,189);
+  display: block;
+  margin-top: -80px;
+  /*margin: auto;*/
+  width: 100px;
+}
 
+#about-container{
   font-style: italic;
-  /*padding-top: 50px;*/
-  /*padding-bottom: 305px;*/
+  /*padding-top: 2em;*/
+}
+
+h3{
+  font-style: normal;
+  margin-bottom: 4em;
 }
 
 p{
@@ -70,6 +80,7 @@ p{
     margin: 0;
     margin-bottom: 20px;
     top: 5px;
+    left: 0;
     /*padding-bottom: 5px;*/
   }
 }

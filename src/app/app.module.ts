@@ -8,7 +8,6 @@ import { MatButtonModule, MatCardModule, MatMenuModule, MatToolbarModule, MatIco
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { WelcomeBannerComponent } from './welcome-banner/welcome-banner.component';
-import { TeaserComponent } from './teaser/teaser.component';
 import { ProductsComponent } from './products/products.component';
 import { VideoComponent } from './video/video.component';
 import { PurchaseComponent } from './purchase/purchase.component';
@@ -20,7 +19,6 @@ import { SharedService } from './shared.service';
     AppComponent,
     HeaderComponent,
     WelcomeBannerComponent,
-    TeaserComponent,
     ProductsComponent,
     VideoComponent,
     PurchaseComponent,

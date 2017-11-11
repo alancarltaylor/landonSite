@@ -1,13 +1,13 @@
 :host{
   display: block;
   width: 100%;
-  /*background-color: white;*/
+  padding-top: 4em;
 }
 
 .reviews{
   background-color: white;
   font-style: italic;
-  padding-top: 305px;
-  padding-bottom: 305px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 100%;
 }
