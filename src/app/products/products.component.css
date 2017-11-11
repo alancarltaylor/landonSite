@@ -2,8 +2,8 @@
 :host{
   display: block;
   background-color: rgb(246,247,189);
-  box-shadow: inset 0px 11px 8px -10px #CCC,
-        inset 0px -11px 8px -10px #CCC;
+  box-shadow: inset 0px 11px 8px -10px black,
+        inset 0px -11px 8px -10px black;
   padding-bottom: 4em;
   padding-top: 4em;
 }

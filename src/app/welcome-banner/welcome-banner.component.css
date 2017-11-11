@@ -3,8 +3,8 @@
   /*background-color: white;*/
   background-color: rgb(246,247,189);
   /*height: 1800px;*/
-  box-shadow: inset 0px 11px 8px -10px #CCC,
-        inset 0px -11px 8px -10px #CCC;
+  box-shadow: inset 0px 11px 8px -10px black,
+        inset 0px -11px 8px -10px black;
   font-size: 24px;
   padding-bottom: 2em;
 }
