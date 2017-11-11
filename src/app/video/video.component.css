@@ -1,6 +1,10 @@
 :host{
   display: block;
-  background-color: rgb(128,188,163);
+  /*background-color: rgb(128,188,163);*/
+  /*background-color: rgb(246,247,189);*/
+  /*background-color: rgb(205,215,182);*/
+  background-color: rgb(198,226,232);
+
   padding-bottom: 4em;
   padding-top: 4em;
   box-shadow: inset 0px 11px 8px -10px black,
